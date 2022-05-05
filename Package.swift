@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(name: "ZendeskSDKConfigurationsSDK",
                  url: "https://github.com/zendesk/sdkconfigurations_sdk_ios",
-                 .branch("bugfix/Xcode13.3-SPM-integration"))
+                 .branch("xcode.13.spm.for.5.5.0"))
     ],
     targets: [
         .binaryTarget(
