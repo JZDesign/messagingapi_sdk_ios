@@ -15,7 +15,7 @@ let package = Package(
     ],
     dependencies: [
         .package(name: "ZendeskSDKConfigurationsSDK",
-                 url: "https://github.com/zendesk/sdkconfigurations_sdk_ios",
+                 url: "https://github.com/JZDesign/sdkconfigurations_sdk_ios",
                  .branch("xcode.13.spm.for.5.5.0"))
     ],
     targets: [
